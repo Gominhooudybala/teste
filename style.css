@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-block: 1rem;
+    border: none;
+    background: green;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
